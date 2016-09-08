@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let manager = AFHTTPSessionManager()
         
-        manager.GET("http://api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID=7ae26182752050a0c0c32b9c8e0de957",
+        manager.GET("http://api.openweathermap.org/data/2.5/forecast/city?lat=42.07225&lon=-87.722839&APPID=7ae26182752050a0c0c32b9c8e0de957",
                     parameters: nil,
                     progress: nil,
                     success: { (operation: NSURLSessionDataTask,responseObject: AnyObject?) in
