@@ -10,12 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var forecastLabel: UILabel!
+    
+    @IBOutlet weak var forecastLabel: LTMorphingLabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let manager = AFHTTPSessionManager()
         
+        self.forecastLabel.text = ""
+        
+        
+        let activityIndicatorView = UIActivityIndicatorView(activityIndicatorStyle: .Gray)
+        view.addSubview(activityIndicatorView)
+        activityIndicatorView.center = view.center
+        activityIndicatorView.startAnimating()
+        
+        let manager = AFHTTPSessionManager()
         manager.GET("http://api.openweathermap.org/data/2.5/forecast/city?lat=42.07225&lon=-87.722839&APPID=7ae26182752050a0c0c32b9c8e0de957",
                     parameters: nil,
                     progress: nil,
@@ -25,7 +34,9 @@ class ViewController: UIViewController {
                             let json = JSON(responseObject)
                             if let forecast = json["list"][0]["weather"][0]["description"].string {
                                 self.forecastLabel.text = forecast
+                                self.forecastLabel.SparkleLoad()
                             }
+                            activityIndicatorView.removeFromSuperview()
                         }
         },
                     failure: { (operation: NSURLSessionDataTask?,error: NSError) in

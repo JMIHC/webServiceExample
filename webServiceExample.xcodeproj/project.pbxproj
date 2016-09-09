@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A09E6BE1D830089007CEE44 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A09E6AA1D830089007CEE44 /* Info.plist */; };
+		5A09E6BF1D830089007CEE44 /* LTCharacterDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09E6AB1D830089007CEE44 /* LTCharacterDiffResult.swift */; };
+		5A09E6C01D830089007CEE44 /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09E6AC1D830089007CEE44 /* LTCharacterLimbo.swift */; };
+		5A09E6C11D830089007CEE44 /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09E6AD1D830089007CEE44 /* LTEasing.swift */; };
+		5A09E6C21D830089007CEE44 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09E6AE1D830089007CEE44 /* LTEmitterView.swift */; };
+		5A09E6C31D830089007CEE44 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09E6AF1D830089007CEE44 /* LTMorphingEffect.swift */; };
+		5A09E6C41D830089007CEE44 /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09E6B01D830089007CEE44 /* LTMorphingLabel+Anvil.swift */; };
+		5A09E6C51D830089007CEE44 /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09E6B11D830089007CEE44 /* LTMorphingLabel+Burn.swift */; };
+		5A09E6C61D830089007CEE44 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09E6B21D830089007CEE44 /* LTMorphingLabel+Evaporate.swift */; };
+		5A09E6C71D830089007CEE44 /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09E6B31D830089007CEE44 /* LTMorphingLabel+Fall.swift */; };
+		5A09E6C81D830089007CEE44 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09E6B41D830089007CEE44 /* LTMorphingLabel+Pixelate.swift */; };
+		5A09E6C91D830089007CEE44 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09E6B51D830089007CEE44 /* LTMorphingLabel+Sparkle.swift */; };
+		5A09E6CA1D830089007CEE44 /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09E6B71D830089007CEE44 /* LTMorphingLabel.swift */; };
+		5A09E6CB1D830089007CEE44 /* LTStringDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09E6B81D830089007CEE44 /* LTStringDiffResult.swift */; };
+		5A09E6CC1D830089007CEE44 /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09E6BA1D830089007CEE44 /* Fire.png */; };
+		5A09E6CD1D830089007CEE44 /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09E6BB1D830089007CEE44 /* Fragment.png */; };
+		5A09E6CE1D830089007CEE44 /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09E6BC1D830089007CEE44 /* Smoke.png */; };
+		5A09E6CF1D830089007CEE44 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A09E6BD1D830089007CEE44 /* Sparkle.png */; };
 		5A268FAA1D805F0500F638E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A268FA91D805F0500F638E6 /* AppDelegate.swift */; };
 		5A268FAC1D805F0500F638E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A268FAB1D805F0500F638E6 /* ViewController.swift */; };
 		5A268FAF1D805F0500F638E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A268FAD1D805F0500F638E6 /* Main.storyboard */; };
@@ -22,6 +40,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A09E6AA1D830089007CEE44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A09E6AB1D830089007CEE44 /* LTCharacterDiffResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTCharacterDiffResult.swift; sourceTree = "<group>"; };
+		5A09E6AC1D830089007CEE44 /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		5A09E6AD1D830089007CEE44 /* LTEasing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTEasing.swift; sourceTree = "<group>"; };
+		5A09E6AE1D830089007CEE44 /* LTEmitterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTEmitterView.swift; sourceTree = "<group>"; };
+		5A09E6AF1D830089007CEE44 /* LTMorphingEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMorphingEffect.swift; sourceTree = "<group>"; };
+		5A09E6B01D830089007CEE44 /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
+		5A09E6B11D830089007CEE44 /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		5A09E6B21D830089007CEE44 /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		5A09E6B31D830089007CEE44 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
+		5A09E6B41D830089007CEE44 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		5A09E6B51D830089007CEE44 /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		5A09E6B61D830089007CEE44 /* LTMorphingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMorphingLabel.h; sourceTree = "<group>"; };
+		5A09E6B71D830089007CEE44 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTMorphingLabel.swift; sourceTree = "<group>"; };
+		5A09E6B81D830089007CEE44 /* LTStringDiffResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LTStringDiffResult.swift; sourceTree = "<group>"; };
+		5A09E6BA1D830089007CEE44 /* Fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fire.png; sourceTree = "<group>"; };
+		5A09E6BB1D830089007CEE44 /* Fragment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fragment.png; sourceTree = "<group>"; };
+		5A09E6BC1D830089007CEE44 /* Smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smoke.png; sourceTree = "<group>"; };
+		5A09E6BD1D830089007CEE44 /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
 		5A268FA61D805F0500F638E6 /* webServiceExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webServiceExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A268FA91D805F0500F638E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A268FAB1D805F0500F638E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,10 +94,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A09E6A91D830089007CEE44 /* LTMorphingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5A09E6AA1D830089007CEE44 /* Info.plist */,
+				5A09E6AB1D830089007CEE44 /* LTCharacterDiffResult.swift */,
+				5A09E6AC1D830089007CEE44 /* LTCharacterLimbo.swift */,
+				5A09E6AD1D830089007CEE44 /* LTEasing.swift */,
+				5A09E6AE1D830089007CEE44 /* LTEmitterView.swift */,
+				5A09E6AF1D830089007CEE44 /* LTMorphingEffect.swift */,
+				5A09E6B01D830089007CEE44 /* LTMorphingLabel+Anvil.swift */,
+				5A09E6B11D830089007CEE44 /* LTMorphingLabel+Burn.swift */,
+				5A09E6B21D830089007CEE44 /* LTMorphingLabel+Evaporate.swift */,
+				5A09E6B31D830089007CEE44 /* LTMorphingLabel+Fall.swift */,
+				5A09E6B41D830089007CEE44 /* LTMorphingLabel+Pixelate.swift */,
+				5A09E6B51D830089007CEE44 /* LTMorphingLabel+Sparkle.swift */,
+				5A09E6B61D830089007CEE44 /* LTMorphingLabel.h */,
+				5A09E6B71D830089007CEE44 /* LTMorphingLabel.swift */,
+				5A09E6B81D830089007CEE44 /* LTStringDiffResult.swift */,
+				5A09E6B91D830089007CEE44 /* Particles */,
+			);
+			path = LTMorphingLabel;
+			sourceTree = "<group>";
+		};
+		5A09E6B91D830089007CEE44 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				5A09E6BA1D830089007CEE44 /* Fire.png */,
+				5A09E6BB1D830089007CEE44 /* Fragment.png */,
+				5A09E6BC1D830089007CEE44 /* Smoke.png */,
+				5A09E6BD1D830089007CEE44 /* Sparkle.png */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
 		5A268F9D1D805F0500F638E6 = {
 			isa = PBXGroup;
 			children = (
 				5A268FCF1D8065F500F638E6 /* bridge.h */,
+				5A09E6A91D830089007CEE44 /* LTMorphingLabel */,
 				5A268FBB1D80641200F638E6 /* AFNetworking */,
 				5A268FA81D805F0500F638E6 /* webServiceExample */,
 				5A268FA71D805F0500F638E6 /* Products */,
@@ -167,8 +239,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A09E6CF1D830089007CEE44 /* Sparkle.png in Resources */,
+				5A09E6BE1D830089007CEE44 /* Info.plist in Resources */,
+				5A09E6CD1D830089007CEE44 /* Fragment.png in Resources */,
 				5A268FB41D805F0500F638E6 /* LaunchScreen.storyboard in Resources */,
+				5A09E6CC1D830089007CEE44 /* Fire.png in Resources */,
 				5A268FB11D805F0500F638E6 /* Assets.xcassets in Resources */,
+				5A09E6CE1D830089007CEE44 /* Smoke.png in Resources */,
 				5A268FAF1D805F0500F638E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,15 +257,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A09E6C31D830089007CEE44 /* LTMorphingEffect.swift in Sources */,
+				5A09E6CA1D830089007CEE44 /* LTMorphingLabel.swift in Sources */,
+				5A09E6C01D830089007CEE44 /* LTCharacterLimbo.swift in Sources */,
+				5A09E6C61D830089007CEE44 /* LTMorphingLabel+Evaporate.swift in Sources */,
 				5A268FC91D80641200F638E6 /* AFHTTPSessionManager.m in Sources */,
 				5A268FCE1D80641200F638E6 /* AFURLSessionManager.m in Sources */,
+				5A09E6CB1D830089007CEE44 /* LTStringDiffResult.swift in Sources */,
 				5A268FCB1D80641200F638E6 /* AFSecurityPolicy.m in Sources */,
+				5A09E6BF1D830089007CEE44 /* LTCharacterDiffResult.swift in Sources */,
+				5A09E6C71D830089007CEE44 /* LTMorphingLabel+Fall.swift in Sources */,
 				5A268FAC1D805F0500F638E6 /* ViewController.swift in Sources */,
 				5A268FCC1D80641200F638E6 /* AFURLRequestSerialization.m in Sources */,
+				5A09E6C21D830089007CEE44 /* LTEmitterView.swift in Sources */,
 				5A268FCA1D80641200F638E6 /* AFNetworkReachabilityManager.m in Sources */,
+				5A09E6C11D830089007CEE44 /* LTEasing.swift in Sources */,
+				5A09E6C91D830089007CEE44 /* LTMorphingLabel+Sparkle.swift in Sources */,
+				5A09E6C81D830089007CEE44 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				5A09E6C51D830089007CEE44 /* LTMorphingLabel+Burn.swift in Sources */,
 				5A268FD11D80C57800F638E6 /* SwiftyJSON.swift in Sources */,
 				5A268FCD1D80641200F638E6 /* AFURLResponseSerialization.m in Sources */,
 				5A268FAA1D805F0500F638E6 /* AppDelegate.swift in Sources */,
+				5A09E6C41D830089007CEE44 /* LTMorphingLabel+Anvil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +434,7 @@
 				5A268FBA1D805F0500F638E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
